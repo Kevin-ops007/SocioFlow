@@ -1,0 +1,20 @@
+{
+  "name": "sociofyarlow-server",
+  "version": "1.0.0",
+  "description": "A social-media platform with features similar as other more popular platforms. Implemeneted using some of the latest front-end and back-end technologies, following industry-standard best practices for design, scalability, privacy, and security.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-ops007/SocioFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-ops007/SocioFlow/issues"
+  },
+  "homepage": "https://github.com/Kevin-ops007/SocioFlow#readme"
+}
