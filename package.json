@@ -4,7 +4,9 @@
   "description": "A social-media platform with features similar as other more popular platforms. Implemeneted using some of the latest front-end and back-end technologies, following industry-standard best practices for design, scalability, privacy, and security.",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "watch": "tsc -w",
+    "start": "node dist/index.js",
+    "start_typescript": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/Kevin-ops007/SocioFlow/issues"
   },
-  "homepage": "https://github.com/Kevin-ops007/SocioFlow#readme"
+  "homepage": "https://github.com/Kevin-ops007/SocioFlow#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.5.9",
+    "@mikro-orm/core": "^4.5.9",
+    "@mikro-orm/migrations": "^4.5.9",
+    "@mikro-orm/postgresql": "^4.5.9",
+    "pg": "^8.7.1"
+  }
 }
