@@ -10,5 +10,11 @@
 
 ---
 
+```
+npx mikro-orm migration: create
+```
+
+
+
 
 
