@@ -1,9 +1,7 @@
 import { MikroORM } from "@mikro-orm/core";
 import { __prod__ } from "./constants"
 import { Post } from "./entities/Post";
-//import mikroConfig from "./mikro-orm.config";
 import { Comment } from "./entities/Comment";
-import path from "path";
 import mikroOrmConfig from "./mikro-orm.config";
 
 const main = async ()=>{
