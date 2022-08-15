@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Kevin-ops007/SocioFlow#readme",
   "devDependencies": {
+    "@types/node": "^18.7.3",
     "nodemon": "^2.0.13"
   },
   "mikro-orm": {
@@ -31,10 +32,16 @@
     ]
   },
   "dependencies": {
-    "@mikro-orm/cli": "^4.5.9",
-    "@mikro-orm/core": "^4.5.9",
-    "@mikro-orm/migrations": "^4.5.9",
-    "@mikro-orm/postgresql": "^4.5.9",
-    "pg": "^8.7.1"
+    "@mikro-orm/cli": "^5.3.1",
+    "@mikro-orm/core": "^5.3.1",
+    "@mikro-orm/migrations": "^5.3.1",
+    "@mikro-orm/postgresql": "^5.3.1",
+    "apollo-server-express": "^3.10.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "mikro-orm": "^5.3.1",
+    "pg": "^8.7.1",
+    "ts-node": "^10.9.1",
+    "type-graphql": "^1.1.1"
   }
 }
